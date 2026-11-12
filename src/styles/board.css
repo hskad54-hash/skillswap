@@ -1,0 +1,6 @@
+/* Sticker-board look: offset shadows, slight tilt on hover */
+.sticker { background: #fff; border: 2px solid #1b1b1b; border-radius: 1.25rem; box-shadow: 5px 5px 0 0 #1b1b1b; }
+.sticker-hover { transition: transform .15s ease; }
+.sticker-hover:hover { transform: rotate(-0.6deg) translateY(-2px); }
+.highlight { background: linear-gradient(transparent 62%, #ffd23f 62%); }
+@media (prefers-reduced-motion: reduce) { .sticker-hover:hover { transform: none; } }
